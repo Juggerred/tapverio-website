@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0B0C11">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TAPVERIO — сайты и Telegram Mini Apps">
+  <meta property="og:description" content="Создаём сайты, Telegram-магазины и Mini Apps для бизнеса. Минск, Беларусь.">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="TAPVERIO — разработка сайтов, Telegram Mini Apps, интернет-магазинов и ботов для бизнеса в Минске и по Беларуси. Демо и стартовые цены.">
+  <title>TAPVERIO — создание сайтов и Telegram Mini Apps в Минске</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="effects.css">
+  <script defer src="config.js"></script>
+  <script defer src="app.js"></script>
+  <script defer src="motion.js"></script>
+</head>
+<body class="site-home">
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <svg class="svg-sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2 14h14l2-10H6"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="M21 8 12 3 3 8v10l9 5 9-5V8ZM3 8l9 5 9-5M12 13v10"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="m13 2-9 12h8l-1 8 9-12h-8z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 3 6v6c0 5 3.6 8.1 9 10 5.4-1.9 9-5 9-10V6l-9-4Z"/><path d="m8.5 12 2.3 2.3 4.7-4.7"/></symbol>
+    <symbol id="i-settings" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/><circle cx="9" cy="8" r="2" fill="#09090d"/><circle cx="15" cy="16" r="2" fill="#09090d"/></symbol>
+    <symbol id="i-telegram" viewBox="0 0 24 24"><path d="m21 3-3.3 17.3-5.9-5-3.1 3.1.6-5.8L19 6l-11.6 6-4.6-1.4L21 3Z"/></symbol>
+    <symbol id="i-mobile" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18h4"/></symbol>
+    <symbol id="i-pointer" viewBox="0 0 24 24"><path d="m5 3 13 9-6 1-3 6L5 3Z"/></symbol>
+    <symbol id="i-location" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4L12 2Z"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h12M9 12h12M9 18h12M3 6h1M3 12h1M3 18h1"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  </svg>
+
+  <div class="topline"><span class="topline-pulse"></span> Создаём цифровые продукты для бизнеса в Беларуси <span class="topline-separator">/</span> Сайты · Боты · Mini Apps</div>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="TAPVERIO — на главную"><span class="logo-mark"><img src="assets/tapverio-symbol.svg" alt="" width="35" height="35"></span><span class="logo-lockup"><span class="logo-word">TAP<span>VERIO</span></span><span class="logo-caption">DIGITAL PRODUCT STUDIO</span></span></a>
+      <nav class="nav" id="main-nav" aria-label="Навигация по сайту">
+        <a href="#features">Возможности</a>
+        <a href="#demo">Демо</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#pricing">Тарифы</a>
+        <a href="#steps">Как работаем</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-small btn-outline header-cta" data-open-lead>Обсудить проект <svg class="icon"><use href="#i-arrow-up"/></svg></button>
+        <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню"><svg class="icon"><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" aria-labelledby="hero-heading">
+      <div class="hero-glow hero-glow-1"></div><div class="hero-glow hero-glow-2"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> TAPVERIO / DIGITAL STUDIO <span class="eyebrow-line"></span> Минск / Беларусь</div>
+          <h1 id="hero-heading">Создаём<br><span class="gradient-text">сайты и</span><br>Mini Apps.</h1>
+          <p class="hero-lead">Разрабатываем сайты, Telegram-магазины и Mini Apps под задачи бизнеса. Покажем рабочее демо, согласуем функции и поможем с запуском.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#demo">Попробовать демо <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn-dark" href="#portfolio">Наши работы <svg class="icon"><use href="#i-arrow-up"/></svg></a>
+          </div>
+          <div class="hero-benefits"><span><svg class="icon"><use href="#i-check"/></svg> Адаптация под бизнес</span><span><svg class="icon"><use href="#i-check"/></svg> Работа на смартфонах</span><span><svg class="icon"><use href="#i-check"/></svg> Поддержка после запуска</span></div>
+        </div>
+        <div class="hero-visual" id="demo">
+          <div class="hero-orbit hero-orbit-one"></div><div class="hero-orbit hero-orbit-two"></div>
+          <div class="hero-float float-order"><span class="float-icon"><svg class="icon"><use href="#i-box"/></svg></span><span><strong>Новый заказ</strong><small>Уведомление продавцу</small></span><span class="float-check"><svg class="icon"><use href="#i-check"/></svg></span></div>
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="phone-status"><span>9:41</span><div class="status-icons"><span class="bars">▂▄▆</span><svg width="15" height="11" viewBox="0 0 15 11"><path d="M1 4c3.3-3 9.7-3 13 0M3 6.3c2.3-2 6.7-2 9 0M5.5 8.5c1-.8 2-.8 3 0" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span class="battery"></span></div></div>
+              <div class="tg-header"><div class="tg-back">‹</div><div class="tg-header-text"><strong>ATELIER STORE <svg width="11" height="11" viewBox="0 0 24 24" class="tg-check"><circle cx="12" cy="12" r="11" fill="#2aabee"/><path d="m6 12 4 4 8-8" stroke="#fff" stroke-width="3" fill="none"/></svg></strong><span>Демонстрация магазина</span></div><span class="tg-dots">⋮</span></div>
+              <div class="shop" id="shop-app">
+                <div class="shop-page active" id="shop-catalog" aria-label="Демонстрационный каталог">
+                  <div class="shop-greeting"><span>ВИТРИНА / НОВИНКИ</span><strong>Выбирай лучшее<span>✳</span></strong><p>Товары и аксессуары на каждый день</p></div>
+                  <div class="shop-search-wrap"><svg class="shop-search-icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><input id="shop-search" type="search" placeholder="Найти товар" aria-label="Поиск товара"></div>
+                  <div class="shop-cats" id="shop-categories" aria-label="Категории магазина"></div>
+                  <div class="shop-title-row"><strong>Наши товары</strong><span id="shop-count"></span></div>
+                  <div class="products" id="shop-products"></div>
+                </div>
+                <div class="shop-page" id="shop-cart" aria-label="Демонстрационная корзина">
+                  <div class="shop-page-heading">Корзина <span id="cart-total-items">0 товаров</span></div>
+                  <div id="cart-items" class="cart-items"></div>
+                  <div id="cart-summary"></div>
+                </div>
+                <div class="shop-page" id="shop-orders" aria-label="Заказы">
+                  <div class="shop-page-heading">Мои заказы</div>
+                  <div id="orders-list" class="order-list"></div>
+                </div>
+                <div class="shop-page" id="shop-profile" aria-label="Профиль">
+                  <div class="shop-page-heading">Профиль</div>
+                  <div class="demo-profile-avatar">М</div>
+                  <div class="demo-profile-name">Демо-покупатель</div>
+                  <div class="demo-profile-subtitle">Это пример экрана клиента</div>
+                  <div class="profile-row"><span>🎁 Бонусная программа</span><strong>Демо</strong></div>
+                  <div class="profile-row"><span>📦 История заказов</span><strong>→</strong></div>
+                  <div class="profile-row"><span>🚚 Способы доставки</span><strong>→</strong></div>
+                  <p class="profile-hint">В вашем приложении будут реальные функции и оформление под ваш бренд.</p>
+                </div>
+                <div class="shop-page" id="shop-checkout" aria-label="Оформление заказа">
+                  <button class="checkout-back" id="checkout-back">← Назад в корзину</button>
+                  <div class="shop-page-heading">Оформление</div>
+                  <label class="checkout-label" for="delivery-choice">Способ доставки</label>
+                  <select id="delivery-choice" class="checkout-field"><option value="Самовывоз">Самовывоз</option><option value="Курьер по Минску">Курьер по Минску</option><option value="Европочта">Европочта</option><option value="Белпочта">Белпочта</option></select>
+                  <label class="checkout-label" for="checkout-comment">Комментарий (необязательно)</label>
+                  <textarea id="checkout-comment" class="checkout-field" placeholder="Пожелания к заказу" rows="3"></textarea>
+                  <div id="checkout-total" class="checkout-total"></div>
+                  <button class="shop-primary" id="place-demo-order">Оформить демо-заказ</button>
+                  <p class="checkout-disclaimer">Демонстрация: заказ никуда не отправляется. Оплата не подключена.</p>
+                </div>
+              </div>
+              <div class="shop-tabs" id="shop-tabs"><button class="shop-tab active" data-page="catalog" aria-label="Каталог"><svg><use href="#i-grid"/></svg><span>Каталог</span></button><button class="shop-tab" data-page="cart" aria-label="Корзина"><span class="shop-tab-icon"><svg><use href="#i-cart"/></svg><i id="cart-badge" hidden>0</i></span><span>Корзина</span></button><button class="shop-tab" data-page="orders" aria-label="Заказы"><svg><use href="#i-box"/></svg><span>Заказы</span></button><button class="shop-tab" data-page="profile" aria-label="Профиль"><svg><use href="#i-user"/></svg><span>Профиль</span></button></div>
+            </div>
+          </div>
+          <div class="hero-float float-setup"><span class="float-icon purple"><svg class="icon"><use href="#i-spark"/></svg></span><span><strong>Всё под ваш бренд</strong><small>Цвета · Контент · Функции</small></span></div>
+          <div class="visual-caption"><span class="visual-caption-line"></span> Интерактивная версия — нажимай на товары <svg class="icon"><use href="#i-arrow-up"/></svg></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="signal-bar" aria-label="Преимущества"><div class="container signal-inner"><span>БЫСТРЫЙ ДОСТУП</span><i></i><span>ПРИВЫЧНЫЙ TELEGRAM</span><i></i><span>БОЛЬШЕ ВОЗМОЖНОСТЕЙ</span><i></i><span>СВОЙ СТИЛЬ</span></div></section>
+
+    <section class="section section-features" id="features">
+      <div class="container">
+        <div class="section-head"><div><div class="section-label"><span>01</span> / ВОЗМОЖНОСТИ</div><h2>Не просто бот.<br><span class="text-dim">Целый бизнес-инструмент.</span></h2></div><p>Собираем нужные модули в одном удобном интерфейсе. Вашим клиентам не понадобится устанавливать ещё одно приложение.</p></div>
+        <div class="features-grid">
+          <article class="feature-card feature-orange"><span class="feature-number">01 / ПРОДАЖИ</span><div class="feature-icon"><svg class="icon"><use href="#i-cart"/></svg></div><h3>Каталог и корзина</h3><p>Товары, категории, цены, поиск и удобное оформление заказа прямо в Telegram.</p><div class="feature-deco mini-products"><span></span><span></span><span></span></div></article>
+          <article class="feature-card"><span class="feature-number">02 / УПРАВЛЕНИЕ</span><div class="feature-icon"><svg class="icon"><use href="#i-settings"/></svg></div><h3>Панель администратора</h3><p>Управление товарами, заказами и остатками без редактирования кода.</p><div class="feature-mini-rows"><i></i><i></i><i></i></div></article>
+          <article class="feature-card"><span class="feature-number">03 / КОММУНИКАЦИЯ</span><div class="feature-icon"><svg class="icon"><use href="#i-telegram"/></svg></div><h3>Уведомления в Telegram</h3><p>Информация о новых заказах и изменениях статуса сразу приходит в мессенджер.</p><div class="feature-chat"><span class="chat-avatar">✳</span><span><i></i><i></i></span><b>✓</b></div></article>
+          <article class="feature-card"><span class="feature-number">04 / ЛОГИСТИКА</span><div class="feature-icon"><svg class="icon"><use href="#i-box"/></svg></div><h3>Доставка и самовывоз</h3><p>Настраиваем нужные способы доставки, поля заказа и комментарии покупателя.</p><div class="feature-delivery"><span>●</span> Самовывоз <b>✓</b></div></article>
+          <article class="feature-card"><span class="feature-number">05 / ЛОЯЛЬНОСТЬ</span><div class="feature-icon"><svg class="icon"><use href="#i-user"/></svg></div><h3>Профиль клиента</h3><p>История заказов, бонусы, промокоды и персональные предложения — по задаче.</p><div class="feature-profile"><span>T</span><i></i><i></i></div></article>
+          <article class="feature-card feature-dark"><span class="feature-number">06 / ПОД ЗАДАЧУ</span><div class="feature-icon"><svg class="icon"><use href="#i-bolt"/></svg></div><h3>Ваши уникальные функции</h3><p>Онлайн-запись, расчёт стоимости, заявки, интеграции с CRM и другие сценарии.</p><button class="text-link" data-open-lead>Обсудить функционал <svg class="icon"><use href="#i-arrow-up"/></svg></button></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section product-section" aria-labelledby="product-heading">
+      <div class="container product-layout">
+        <div class="product-diagram">
+          <div class="diagram-label">КАК ЭТО РАБОТАЕТ</div>
+          <div class="diagram-flow"><div class="diagram-node"><span class="node-icon"><svg class="icon"><use href="#i-telegram"/></svg></span><div><strong>Telegram</strong><small>Пользователь открывает бота</small></div></div><div class="diagram-connector"><span></span><svg class="icon"><use href="#i-arrow"/></svg></div><div class="diagram-node highlight"><span class="node-icon"><svg class="icon"><use href="#i-mobile"/></svg></span><div><strong>Mini App</strong><small>Выбирает товар или услугу</small></div></div><div class="diagram-connector"><span></span><svg class="icon"><use href="#i-arrow"/></svg></div><div class="diagram-node"><span class="node-icon"><svg class="icon"><use href="#i-box"/></svg></span><div><strong>Ваш бизнес</strong><small>Получает и обрабатывает заказ</small></div></div></div>
+          <div class="diagram-footer"><div class="diagram-ping"></div><span>Одна точка входа. Простой сценарий для клиента.</span></div>
+        </div>
+        <div class="product-copy"><div class="section-label"><span>02</span> / КАК РАБОТАЕТ</div><h2 id="product-heading">Меньше шагов.<br><span class="gradient-text">Больше удобства.</span></h2><p>Покупатель заходит в знакомый Telegram и получает полноценный интерфейс магазина или сервиса. А вы управляете заказами через удобную систему.</p><ul class="check-list"><li><svg class="icon"><use href="#i-check"/></svg>Открывается на iPhone и Android</li><li><svg class="icon"><use href="#i-check"/></svg>Дизайн в фирменных цветах</li><li><svg class="icon"><use href="#i-check"/></svg>Возможность расширять функционал</li><li><svg class="icon"><use href="#i-check"/></svg>Помощь с запуском и настройкой</li></ul><button class="btn btn-dark btn-border" data-open-lead>Хочу такое приложение <svg class="icon"><use href="#i-arrow"/></svg></button></div>
+      </div>
+    </section>
+
+    
+    <section class="section work-section" id="portfolio" aria-labelledby="portfolio-heading">
+      <div class="work-ambient work-ambient-one" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head work-section-head" data-reveal><div><div class="section-label"><span>03</span> / ПОРТФОЛИО <span class="work-kicker">SELECTED WORK</span></div><h2 id="portfolio-heading">Сначала увидите.<br><span class="gradient-text">Потом поверите.</span></h2></div><p>Никаких вымышленных клиентов. Показываем рабочее демо и дизайн-концепты, чтобы вы представляли, каким может стать ваш проект.</p></div>
+        <div class="work-toolbar" data-reveal>
+          <div class="work-filters" role="group" aria-label="Фильтр проектов">
+            <button type="button" class="work-filter is-active" data-work-filter="all" aria-pressed="true">Все проекты <span>03</span></button>
+            <button type="button" class="work-filter" data-work-filter="mini" aria-pressed="false">Mini Apps</button>
+            <button type="button" class="work-filter" data-work-filter="web" aria-pressed="false">Сайты</button>
+          </div>
+          <span class="work-toolbar-meta"><span class="live-point"></span> 01 интерактивное демо · 02 концепта</span>
+        </div>
+        <div class="work-grid" id="work-grid">
+          <article class="work-card work-card-large" data-work="mini" data-reveal data-tilt>
+            <a href="portfolio.html#atelier" class="work-card-link" aria-label="Подробнее о Telegram-магазине ATELIER STORE">
+              <div class="work-art art-atelier">
+                <div class="art-mesh" aria-hidden="true"></div>
+                <span class="art-corner-label"><span class="live-point"></span> РАБОЧЕЕ ДЕМО</span>
+                <div class="art-phone art-phone-main" aria-hidden="true"><div class="art-phone-top"><span class="art-camera"></span></div><div class="art-phone-screen"><div class="art-mini-head"><span>ATELIER<span class="accent">.</span></span><small>магазин внутри Telegram</small></div><div class="art-mini-tag">КАТАЛОГ / НОВИНКИ</div><div class="art-mini-title">Выбирай лучшее <span>✳</span></div><div class="art-mini-pills"><i>Все товары</i><i>Техника</i><i>Другое</i></div><div class="art-mini-products"><div><img src="assets/headphones.svg" alt=""><span>Наушники Orbit</span><b>159 BYN <em>+</em></b></div><div><img src="assets/watch.svg" alt=""><span>Смарт-часы Luna</span><b>249 BYN <em>+</em></b></div></div><div class="art-mini-nav"><span>▦</span><span>🛒</span><span>◫</span><span>♙</span></div></div></div>
+                <div class="art-floating-card art-floating-sale" aria-hidden="true"><span>↗</span><div><b>Новый заказ</b><small>Обновление статуса</small></div></div>
+                <div class="art-side-type" aria-hidden="true">01 / TAPVERIO LAB</div>
+              </div>
+              <div class="work-card-info"><div><div class="work-card-meta"><span class="work-kind">MINI APP</span><span class="work-status">Рабочее демо</span></div><h3>ATELIER STORE</h3><p>Полноценная витрина внутри Telegram: каталог, фильтры, корзина и сценарий оформления заказа.</p></div><span class="work-card-arrow" aria-hidden="true">↗</span></div>
+            </a>
+          </article>
+          <article class="work-card work-card-compact" data-work="web" data-reveal data-tilt>
+            <a href="portfolio.html#forma" class="work-card-link" aria-label="Подробнее о концепте сайта FORMA">
+              <div class="work-art art-forma"><div class="forma-browser" aria-hidden="true"><div class="forma-browser-nav"><strong>FORMA<span>®</span></strong><small>ABOUT&nbsp;&nbsp; PROJECTS&nbsp;&nbsp; CONTACT</small><i>↗</i></div><div class="forma-browser-copy"><span>ARCHITECTURE / INTERIOR</span><strong>Пространство<br>с характером.</strong><i>Открыть проекты ↗</i></div><div class="forma-architecture"><span></span><span></span><span></span></div><div class="forma-browser-bottom">FORMA STUDIO <span>01 — 03</span></div></div><span class="art-corner-label concept-label">UI / CONCEPT</span></div>
+              <div class="work-card-info"><div><div class="work-card-meta"><span class="work-kind">WEBSITE</span><span class="work-status">Дизайн-концепт</span></div><h3>FORMA STUDIO</h3><p>Премиальный лендинг с визуальным сторителлингом для студии интерьера.</p></div><span class="work-card-arrow" aria-hidden="true">↗</span></div>
+            </a>
+          </article>
+          <article class="work-card work-card-compact" data-work="mini" data-reveal data-tilt>
+            <a href="portfolio.html#slot" class="work-card-link" aria-label="Подробнее о концепте приложения SLOT">
+              <div class="work-art art-slot"><span class="art-corner-label concept-label">UI / CONCEPT</span><div class="slot-visual" aria-hidden="true"><div class="slot-brand"><span class="slot-logo">✳</span> slot<span class="slot-brand-dot">.</span><small>запись онлайн</small></div><div class="slot-panel"><span>ВАШЕ ВРЕМЯ / ВАШ ВЫБОР</span><strong>Красота в твоём<br>ритме.</strong><div class="slot-service"><span>◉</span><div><b>Стрижка и укладка</b><small>60 минут · мастер Анна</small></div><i>→</i></div><div class="slot-dates"><b>12</b><b class="chosen">13</b><b>14</b><b>15</b><b>16</b></div><div class="slot-times"><i>11:30</i><i class="chosen">13:00</i><i>14:30</i></div><div class="slot-confirm">Записаться ↗</div></div></div></div>
+              <div class="work-card-info"><div><div class="work-card-meta"><span class="work-kind">MINI APP</span><span class="work-status">UI-концепт</span></div><h3>SLOT. BOOKING</h3><p>Онлайн-запись на услуги: выбор мастера, даты и свободного времени.</p></div><span class="work-card-arrow" aria-hidden="true">↗</span></div>
+            </a>
+          </article>
+        </div>
+        <div class="work-section-footer" data-reveal><span><span class="small-star">✳</span> Каждый проект начинается с задачи — и превращается в удобный продукт.</span><a href="portfolio.html" class="work-all-link">Смотреть всё портфолио <svg class="icon"><use href="#i-arrow-up"/></svg></a></div>
+      </div>
+    </section>
+
+    <section class="section pricing-section" id="pricing">
+      <div class="container"><div class="section-head"><div><div class="section-label"><span>04</span> / ТАРИФЫ</div><h2>От идеи<br><span class="text-dim">до рабочего продукта.</span></h2></div><p>Понятные стартовые цены. Точная стоимость зависит от функций, дизайна и необходимых интеграций — фиксируем её до начала разработки.</p></div>
+      <div class="pricing-grid">
+        <article class="price-card"><div class="price-top"><span class="plan-tag">01 / САЙТ</span><svg class="icon"><use href="#i-arrow-up"/></svg></div><h3>Сайт для бизнеса</h3><p class="price-desc">Современный сайт, который знакомит с услугами и собирает обращения.</p><div class="price-value"><span>от</span> 1 100 <small>BYN</small></div><div class="price-note">Лендинг / заявка / адаптивность</div><div class="price-divider"></div><ul><li><svg class="icon"><use href="#i-check"/></svg>Дизайн под вашу нишу</li><li><svg class="icon"><use href="#i-check"/></svg>Мобильная версия</li><li><svg class="icon"><use href="#i-check"/></svg>Форма заявки</li><li><svg class="icon"><use href="#i-check"/></svg>Помощь с публикацией</li></ul><button class="btn btn-price" data-plan="Сайт для бизнеса" data-open-lead>Обсудить сайт <svg class="icon"><use href="#i-arrow"/></svg></button></article>
+        <article class="price-card featured"><span class="popular-ribbon">ЧАСТО ВЫБИРАЮТ</span><div class="price-top"><span class="plan-tag">02 / MINI APP</span><svg class="icon"><use href="#i-spark"/></svg></div><h3>Telegram-магазин</h3><p class="price-desc">Каталог, корзина, заказы и админка внутри вашего Telegram-бота.</p><div class="price-value"><span>от</span> 1 800 <small>BYN</small></div><div class="price-note">Для торговли и приёма заказов</div><div class="price-divider"></div><ul><li><svg class="icon"><use href="#i-check"/></svg>Категории и карточки товаров</li><li><svg class="icon"><use href="#i-check"/></svg>Корзина и оформление заказа</li><li><svg class="icon"><use href="#i-check"/></svg>Выбор доставки</li><li><svg class="icon"><use href="#i-check"/></svg>Уведомления и простая админка</li></ul><button class="btn btn-primary btn-price" data-plan="Telegram-магазин" data-open-lead>Хочу Mini App <svg class="icon"><use href="#i-arrow"/></svg></button></article>
+        <article class="price-card"><div class="price-top"><span class="plan-tag">03 / ИНДИВИДУАЛЬНО</span><svg class="icon"><use href="#i-arrow-up"/></svg></div><h3>Mini App Pro</h3><p class="price-desc">Нестандартная логика, роли пользователей и интеграции для бизнеса.</p><div class="price-value"><span>от</span> 3 500 <small>BYN</small></div><div class="price-note">Состав проекта обсуждается отдельно</div><div class="price-divider"></div><ul><li><svg class="icon"><use href="#i-check"/></svg>Индивидуальный интерфейс</li><li><svg class="icon"><use href="#i-check"/></svg>Личный кабинет и статусы</li><li><svg class="icon"><use href="#i-check"/></svg>Внешние интеграции по ТЗ</li><li><svg class="icon"><use href="#i-check"/></svg>Развитие проекта по этапам</li></ul><button class="btn btn-price" data-plan="Mini App Pro" data-open-lead>Рассчитать проект <svg class="icon"><use href="#i-arrow"/></svg></button></article>
+      </div>
+      <p class="pricing-footnote">* Цены ориентировочные. Домен, хостинг, платные сервисы и платёжные комиссии при необходимости оплачиваются отдельно. Реальные платежи подключаются только через подходящего провайдера.</p></div>
+    </section>
+
+    <section class="section steps-section" id="steps"><div class="container"><div class="section-head"><div><div class="section-label"><span>05</span> / ПРОЦЕСС</div><h2>От первого сообщения<br><span class="text-dim">до запуска.</span></h2></div><p>Никаких загадок: согласуем задачу, покажем результат и вместе проверим работу перед публикацией.</p></div><div class="steps-grid"><div class="step"><div class="step-index">01 <span></span></div><h3>Обсуждаем</h3><p>Узнаём о бизнесе, аудитории и нужных функциях.</p></div><div class="step"><div class="step-index">02 <span></span></div><h3>Проектируем</h3><p>Согласуем структуру, сроки и финальную стоимость.</p></div><div class="step"><div class="step-index">03 <span></span></div><h3>Разрабатываем</h3><p>Собираем интерфейс, подключаем логику и тестируем.</p></div><div class="step"><div class="step-index">04 <span></span></div><h3>Запускаем</h3><p>Публикуем проект, передаём доступы и инструкцию.</p></div></div></div></section>
+
+    <section class="faq-section section"><div class="container faq-layout"><div><div class="section-label"><span>06</span> / ВОПРОСЫ</div><h2>Часто<br><span class="text-dim">спрашивают.</span></h2><p class="faq-intro">Не нашли ответ? Расскажите нам о своей идее — поможем разобраться.</p><button class="text-link" data-open-lead>Задать вопрос <svg class="icon"><use href="#i-arrow-up"/></svg></button></div><div class="faq-items"><details><summary>Нужно ли клиентам устанавливать приложение?<span class="faq-plus">+</span></summary><p>Нет. Telegram Mini App открывается внутри Telegram по кнопке в боте или ссылке. Пользователю достаточно самого Telegram.</p></details><details><summary>Можно ли сделать приложение под мой дизайн?<span class="faq-plus">+</span></summary><p>Да. Подберём цвета, типографику, экранные элементы и логику под ваш бренд. Сложный нестандартный дизайн обсуждается отдельно.</p></details><details><summary>Смогу ли я менять товары и цены сам?<span class="faq-plus">+</span></summary><p>В Telegram-магазине можем предусмотреть панель управления для изменения товаров, категорий, цен и статусов заказов без программирования.</p></details><details><summary>Какие расходы будут после запуска?<span class="faq-plus">+</span></summary><p>Обычно это хостинг, домен при необходимости и сторонние платные сервисы. Их стоимость зависит от нагрузки. Поддержку и новые функции можно согласовать отдельно.</p></details><details><summary>Можно ли подключить оплату картой?<span class="faq-plus">+</span></summary><p>Для подходящих товаров и услуг — при наличии разрешённого платёжного провайдера и успешного подключения. Условия зависят от вида деятельности и правил Telegram; сама интеграция оценивается отдельно.</p></details></div></div></section>
+
+    <section class="cta-section section" id="contact"><div class="container"><div class="cta-box"><div class="cta-orb"></div><div class="cta-grid"><div><span class="cta-eyebrow"><span></span> ЕСТЬ ИДЕЯ?</span><h2>Давайте сделаем<br><em>её реальной.</em></h2><p>Расскажите, какой сайт или Mini App нужен вашему бизнесу. Поможем определить функции и ориентировочный бюджет.</p></div><div class="cta-side"><button class="btn btn-white" data-open-lead>Обсудить проект <svg class="icon"><use href="#i-arrow-up"/></svg></button><span>Пока контакт не подключён: заявку можно скопировать</span></div></div><div class="cta-bigtext" aria-hidden="true">MAKE IT WORK.</div></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer-main"><div><a class="logo footer-logo" href="#top"><span class="logo-mark"><img src="assets/tapverio-symbol.svg" alt="" width="35" height="35"></span><span class="logo-lockup"><span class="logo-word">TAP<span>VERIO</span></span><span class="logo-caption">DIGITAL PRODUCT STUDIO</span></span></a><p>TAPVERIO — разработка сайтов, Telegram-магазинов и Mini Apps для бизнеса в Минске и по Беларуси.</p></div><div class="footer-links"><a href="#features">Возможности</a><a href="#demo">Демо</a><a href="portfolio.html">Портфолио</a><a href="#pricing">Тарифы</a><a href="#steps">Этапы</a></div><div class="footer-contact"><span>ЕСТЬ ВОПРОС?</span><button data-open-lead>Написать нам <svg class="icon"><use href="#i-arrow-up"/></svg></button><small>Минск · Беларусь</small></div></div><div class="footer-bottom"><span>© <span id="year">2026</span> TAPVERIO · Сайт и портфолио</span><span>Создаём понятные цифровые решения.</span><a href="#top">Наверх ↑</a></div></div></footer>
+
+  <dialog class="lead-modal" id="lead-modal" aria-labelledby="lead-heading"><div class="modal-layout"><button class="modal-close" id="modal-close" aria-label="Закрыть окно"><svg class="icon"><use href="#i-close"/></svg></button><div class="modal-visual"><div class="modal-visual-tag">TAPVERIO / STUDIO</div><div class="modal-visual-symbol"><img src="assets/tapverio-symbol.svg" width="144" height="144" alt="Символ TAPVERIO"></div><p>Превратим вашу идею в работающий цифровой продукт.</p></div><div class="modal-form-wrap"><span class="modal-step">ЗАЯВКА НА ПРОЕКТ / 01</span><h2 id="lead-heading">Расскажите<br>о вашей идее</h2><p class="modal-subtitle">Ответьте на несколько вопросов — сформируем текст обращения для Telegram.</p><form id="lead-form"><label for="lead-name">Как к вам обращаться?</label><input id="lead-name" name="name" autocomplete="name" placeholder="Ваше имя" required maxlength="60"><label for="lead-business">Чем занимается ваш бизнес?</label><input id="lead-business" name="business" placeholder="Например, магазин аксессуаров" maxlength="100"><label for="lead-type">Что хотите разработать?</label><select name="type" id="lead-type"><option value="Telegram-магазин">Telegram-магазин</option><option value="Сайт для бизнеса">Сайт для бизнеса</option><option value="Mini App Pro">Mini App Pro</option><option value="Telegram-бот">Telegram-бот</option><option value="Пока не знаю">Пока не знаю</option></select><label for="lead-contact">Ваш Telegram или другой контакт</label><input id="lead-contact" name="contact" placeholder="@username или email" required maxlength="120"><label for="lead-notes">Коротко о задаче (необязательно)</label><textarea id="lead-notes" name="notes" rows="3" placeholder="Какие функции вам нужны?" maxlength="900"></textarea><button class="btn btn-primary modal-submit" type="submit">Подготовить заявку <svg class="icon"><use href="#i-arrow"/></svg></button><p class="form-note">Данные не отправляются на сервер этого демонстрационного сайта. Сформированный текст можно отправить в Telegram.</p></form><div class="lead-result" id="lead-result" hidden><div class="lead-result-icon"><svg class="icon"><use href="#i-check"/></svg></div><h3>Заявка подготовлена</h3><p id="lead-result-intro">Скопируйте сообщение и отправьте его нам.</p><textarea id="lead-result-text" readonly rows="9" aria-label="Текст заявки"></textarea><button class="btn btn-primary" id="copy-lead">Скопировать текст <svg class="icon"><use href="#i-arrow"/></svg></button><a class="btn btn-dark" id="open-telegram-contact" href="https://t.me/" target="_blank" rel="noopener" hidden>Открыть Telegram <svg class="icon"><use href="#i-telegram"/></svg></a><button id="lead-again" class="lead-again">Изменить заявку</button></div></div></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
